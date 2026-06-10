@@ -1,8 +1,8 @@
 {
-    "REDIS_HOST":"xxxx.com",
-    "REDIS_PORT":"6379",
-    "REDIS_PASSWORD":"password",
-    "REDIS_DB":"1",
-    "PHONE_NUMBER":"1234567890",
-    "DINGTALK_WEBHOOK":"https://oapi.dingtalk.com/robot/send?access_token=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+    "REDIS_HOST":"Redis服务器地址",
+    "REDIS_PORT":"Redis服务端口一般是6379",
+    "REDIS_PASSWORD":"Redis的密码",
+    "REDIS_DB":"配置需要连接的 Redis 数据库索引号一般为0到15", 
+    "PHONE_NUMBER":"你的手机号",
+    "DINGTALK_WEBHOOK":" 配置钉钉机器人的 webhook 地址（用于发送通知消息）不仅仅是钉钉，也可以是其他支持 webhook 的平台，如企业微信、飞书、Telegram 等。可以根据实际使用的平台调整配置项名称和格式" 
 }
