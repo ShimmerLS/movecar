@@ -1,0 +1,8 @@
+{
+    "REDIS_HOST":"xxxx.com",
+    "REDIS_PORT":"6379",
+    "REDIS_PASSWORD":"password",
+    "REDIS_DB":"1",
+    "PHONE_NUMBER":"1234567890",
+    "DINGTALK_WEBHOOK":"https://oapi.dingtalk.com/robot/send?access_token=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+}
