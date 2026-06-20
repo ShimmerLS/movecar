@@ -17,6 +17,10 @@ class CacheService {
   private isRedisConnected = false;
   private memoryCache: Map<string, { value: string; expire: number | null }> = new Map();
 
+  public getRedisStatus(): boolean {
+    return this.isRedisConnected;
+  }
+
   constructor() {
     this.initRedis();
     this.loadLockStateFromFile();
