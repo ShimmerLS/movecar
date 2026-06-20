@@ -73,7 +73,15 @@ npm install --verbose
 npm run build
 ```
 
-把dev文件夹以及package.json、scf_bootstrap打包成ZIP压缩包
+把src\assets\imagescar_app_icon_1781308843885.jpg文件复制到dist\assets文件夹下并重命名为car-icon.jpg，这个图标是用来创建Web APP时使用的图标你也可以替换成你喜欢的
+
+将 `dev`  文件夹以及`package.json`、`scf_bootstrap`、`sensitive-words.txt` 打包成ZIP压缩包
+
+`sensitive-words.txt`  文件是敏感词检测你可以自定义添加其他的也可以使用其他仓库的敏感词
+
+例如
+
+1. [fwwdn/sensitive-stop-words: 互联网常用敏感词、停止词词库](https://github.com/fwwdn/sensitive-stop-words)
 
 ### 第四步：创建腾讯云函数服务
 
